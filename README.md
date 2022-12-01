@@ -5,5 +5,6 @@ Projeto que visa analisar aspectos qualitativos e quantitativos da mec√¢nica cl√
 
 [Plano_Inclinado.webm](https://user-images.githubusercontent.com/36778347/205053859-b5b6e465-6909-477a-ac93-7c41174ee69a.webm)
 
-
 [Basketball.webm](https://user-images.githubusercontent.com/36778347/205060758-8068e3ff-49b7-446e-8b87-29613a90b00e.webm)
+
+[Pole_Vault.webm](https://user-images.githubusercontent.com/36778347/205064104-c2d31fea-4fc5-44c4-ab2b-6a832d7ad3f9.webm)
