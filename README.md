@@ -14,7 +14,7 @@ Projeto que visa analisar aspectos qualitativos e quantitativos da mecânica cl�
 
 ### $$X(t) = Vo\cos(\theta)\times t$$ Tendo valores de X(t) e t, podemos realizar regressão linear e obter: $$Vo\cos(\theta) = 153.915 cm/s$$
 
-![Linear_Fit](https://user-images.githubusercontent.com/36778347/208547704-7e0143ee-8f7b-44f8-a808-bbbcd687e973.png)
+![Linear_Fit](https://user-images.githubusercontent.com/36778347/208548159-87408e1b-cfee-45e1-8894-b9cbdefe008b.png)
 
 
 [Pole_Vault.webm](https://user-images.githubusercontent.com/36778347/205064104-c2d31fea-4fc5-44c4-ab2b-6a832d7ad3f9.webm)
