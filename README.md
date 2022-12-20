@@ -3,6 +3,10 @@ Projeto que visa analisar aspectos qualitativos e quantitativos da mecânica cl�
 
 Para saber como instalar e usar, veja a documentação na pasta Doc
 
+## Primeira apresentação
+
+[SDD_Apresentacao.pdf](https://github.com/EricSoBo/PhysicsProject/files/10268864/SDD_Apresentacao.pdf)
+
 ## Exemplos
 
 [Oscilador Harmônico Amortecido](https://user-images.githubusercontent.com/36778347/205051518-17b3d830-5d30-4bf6-9a1e-554033a85e43.webm)
