@@ -18,3 +18,9 @@ Projeto que visa analisar aspectos qualitativos e quantitativos da mec√¢nica cl√
 
 
 [Pole_Vault.webm](https://user-images.githubusercontent.com/36778347/205064104-c2d31fea-4fc5-44c4-ab2b-6a832d7ad3f9.webm)
+
+https://user-images.githubusercontent.com/36778347/208655474-5e2ca487-5b80-433d-a8c2-15137dcc4ec3.mp4
+
+https://user-images.githubusercontent.com/36778347/208670443-309a79b5-e1cf-4b80-95c5-c27ca6a46b97.mp4
+
+https://user-images.githubusercontent.com/36778347/208673398-e306bc3e-7b2e-481b-9689-351e74f6e695.mp4
