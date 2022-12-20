@@ -1,7 +1,7 @@
 # Projeto de Física
 Projeto que visa analisar aspectos qualitativos e quantitativos da mecânica clássica newtoniana utilizando visão computacional conjuntamente com física computacional
 
-## Para saber como instalar e usar, veja a documentação na pasta Doc
+Para saber como instalar e usar, veja a documentação na pasta Doc
 
 ## Exemplos
 
