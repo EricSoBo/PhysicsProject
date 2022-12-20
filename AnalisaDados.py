@@ -2,6 +2,23 @@ import numpy as np
 from scipy import optimize, interpolate
 import matplotlib.pyplot as plt
 
+def MinQuadrados(Dados):
+  
+  n = len(Dados)
+  X = 0
+  Y = 0
+  XX = 0
+  XY = 0
+  for i in range(len(Dados)):
+    X += Dados[i][0]
+    Y += Dados[i][1]
+    XX += Dados[i][0]**2
+    XY += Dados[i][0]*Dados[i][1]
+  
+  A0 = (X*Y - n*XY) / ((X**2) - n*XX)
+  A1 = (Y*XX - X*XY) / (n*XX - (X**2))
+
+  return A0, A1
 
 def fd_diff(xnovo, int):
 
@@ -77,4 +94,38 @@ def ProjectileMotion(X, Y, Time): # Movimento de projétil
 	
 	#plt.plot(xnovo, pol_position, color='r', label='Posição por Cubic-Splines')
 	
+	plt.show()
+	
+	plt.title('Trajetória do objeto')
+	plt.xlabel('Tempo (s)')
+	plt.ylabel('Posição Y (px)')
+	plt.scatter(Time, Y)
+	plt.show()
+	
+	plt.title('Trajetória do objeto')
+	plt.xlabel('Tempo (s)')
+	plt.ylabel('Posição X (px)')
+	plt.scatter(Time, X)
+	plt.show()
+
+def PendCollision(X, Y, Time, Objects): # Colisão pendular
+
+	g = 9.78
+
+	Energy = dict()
+	Time = Time/1000
+	plt.rcParams['figure.figsize'] = [11, 7]
+	plt.title('Trajetória do objeto')
+	plt.xlabel('Posição X (px)')
+	plt.ylabel('Posição Y (px)')
+
+	for i in range(Objects):
+		Y['Object'+str(i)] = Y['Object'+str(i)]*-1
+		Height = max(Y['Object'+str(i)]) - min(Y['Object'+str(i)])
+		Energy['Object'+str(i)] = g*Height
+		plt.scatter(X['Object'+str(i)], Y['Object'+str(i)], label=f'Objeto {i+1}')
+
+	print(Energy)
+	plt.grid()
+	plt.legend()
 	plt.show()
